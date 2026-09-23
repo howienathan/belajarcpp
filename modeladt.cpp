@@ -10,11 +10,15 @@ struct Barang {
     string nama;
     string merek;
     string tipe_model;
+    string kondisi;
+
     char kode;
+
     int tahun_diperoleh;
+
     double harga_beli;
     double nilai_sekarang;
-    string kondisi;
+
     bool masih_digunakan;
 };
 
