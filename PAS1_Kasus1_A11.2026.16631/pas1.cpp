@@ -4,17 +4,39 @@
 using namespace std;
 
 // 1. solving y = a^3 + 7
+// void soal1() {
+//     double a;
+//     cout << "=== Nomor 1: y = a^3 + 7 ===" << endl;
+//     cout << "Masukkan nilai a: ";
+//     cin >> a;
+
+//     double y = pow(a, 3) + 7; // pow buat ngitung a 3 yaitu fungsi perpangkatan
+//     cout << "Hasil y = " << y << "\n\n";
+// }
+
 void soal1() {
     double a;
-    cout << "=== Nomor 1: y = a^3 + 7 ===" << endl;
+    cout << "=== Nomor 1: y = a * a * a + 7 ===" << endl;
     cout << "Masukkan nilai a: ";
     cin >> a;
 
-    double y = pow(a, 3) + 7; // pow buat ngitung a 3 yaitu fungsi perpangkatan
+    double y = a * a * a + 7;
     cout << "Hasil y = " << y << "\n\n";
 }
 
 // 2. solving y = a*(x^2) + b*x + c
+// void soal2() {
+//     double a, b, c, x;
+//     cout << "=== Nomor 2: y = ax^2 + bx + c ===" << endl;
+//     cout << "Masukkan nilai a: "; cin >> a;
+//     cout << "Masukkan nilai b: "; cin >> b;
+//     cout << "Masukkan nilai c: "; cin >> c;
+//     cout << "Masukkan nilai x: "; cin >> x;
+
+//     double y = (a * pow(x, 2)) + (b * x) + c;
+//     cout << "Hasil y = " << y << "\n\n";
+// }
+
 void soal2() {
     double a, b, c, x;
     cout << "=== Nomor 2: y = ax^2 + bx + c ===" << endl;
@@ -23,7 +45,7 @@ void soal2() {
     cout << "Masukkan nilai c: "; cin >> c;
     cout << "Masukkan nilai x: "; cin >> x;
 
-    double y = (a * pow(x, 2)) + (b * x) + c;
+    double y = (a * x * x) + (b * x) + c;
     cout << "Hasil y = " << y << "\n\n";
 }
 
