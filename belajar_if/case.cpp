@@ -1,42 +1,45 @@
 #include <iostream>
-
 using namespace std;
 
-struct Bilangan {
-    int x, bilangan;
+struct Sepatu {
+    int ukuran;
 };
 
 int main() {
-    cout << "Masukkan jumlah bilangan: ";
+    const int jumlah = 5;
+    Sepatu sepatu[jumlah];
+
+    for (int i = 0; i < jumlah; i++) {
+        cout << "Masukkan ukuran sepatu ke-" << i + 1 << ": ";
+        cin >> sepatu[i].ukuran;
+
+        if (sepatu[i].ukuran <= 0) {
+            cout << "Ukuran harus lebih dari 0!\n";
+            i--;
+        }
+    }
+z
+    for (int i = 0; i < jumlah - 1; i++) {
+        for (int j = i + 1; j < jumlah; j++) {
+            if (sepatu[i].ukuran < sepatu[j].ukuran) {
+                Sepatu temp = sepatu[i];
+                sepatu[i] = sepatu[j];
+                sepatu[j] = temp;
+            }
+        }
+    }
+
+    // Menampilkan hasil
+    cout << "\nUrutan ukuran sepatu dari terbesar:\n";
+
+    for (int i = 0; i < jumlah; i++) {
+        cout << "Sepatu ke-" << i + 1 << ": "
+             << sepatu[i].ukuran << endl;
+    }
+
+    // Data pertama adalah ukuran paling besar
+    cout << "\nUkuran sepatu terbesar: "
+         << sepatu[0].ukuran << endl;
+
+    return 0;
 }
-
-
-// int main() {
-//     const int jumlahSepatu = 5;
-//     Sepatu sepatu[jumlahSepatu];
-
-//     for (int i = 0; i < jumlahSepatu; i++) {
-//         cout << "Masukkan ukuran sepatu ke-" << i + 1 << ": ";
-//         cin >> sepatu[i].ukuran;
-
-//         if (sepatu[i].ukuran <= 0) {
-//             cout << "Ukuran harus lebih dari 0. Coba lagi.\n";
-//             i--;
-//         }
-//     }
-
-//     int ukuranTerbesar = sepatu[0].ukuran;
-//     for (int i = 1; i < jumlahSepatu; i++) {
-//         if (sepatu[i].ukuran > ukuranTerbesar) {
-//             ukuranTerbesar = sepatu[i].ukuran;
-//         }
-//     }
-
-//     cout << "\nDaftar ukuran sepatu:\n";
-//     for (int i = 0; i < jumlahSepatu; i++) {
-//         cout << "Sepatu ke-" << i + 1 << ": " << sepatu[i].ukuran << '\n';
-//     }
-//     cout << "Ukuran sepatu terbesar: " << ukuranTerbesar << '\n';
-
-//     return 0;
-// }
