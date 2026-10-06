@@ -15,10 +15,10 @@ int main() {
 
     switch(a) {
         case 1:
-            cout << "anda memasukkan angka 1" << endl;
+            cout << "satu" << endl;
             break;
         case 2:
-            cout << "anda memasukkan angka 2" << endl;
+            cout << "dua" << endl;
             break;
         default:
             cout << "anda memasukkan angka selain 1,2" << endl;
