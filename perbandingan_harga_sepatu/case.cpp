@@ -27,7 +27,7 @@ int main () {
         cout << "Sepatu dengan harga termurah adalah: " << sepatu[3].merk << " " << sepatu[3].tipe << " dengan harga Rp" << sepatu[3].harga << setprecision(0) << fixed << endl;
     }
 
-    // mengurutkan sepatu berdasarkan harga dari yang termurah ke yang termahal
+    
     for (int i = 0; i < 5; i++) {
         for (int j = i + 1; j < 5; j++) {
             if (sepatu[i].harga > sepatu[j].harga) {

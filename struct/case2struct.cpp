@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// Struktur data kegiatan lari
+
 struct KegiatanLari {
     string nama;
     string hari;
@@ -13,7 +13,7 @@ struct KegiatanLari {
     string catatan;
 };
 
-// Mengubah waktu menjadi detik
+
 int ubahKeDetik(string waktu) {
     int jam = stoi(waktu.substr(0, 2));
     int menit = stoi(waktu.substr(3, 2));
@@ -22,7 +22,7 @@ int ubahKeDetik(string waktu) {
     return jam * 3600 + menit * 60 + detik;
 }
 
-// hitung durasi lari
+
 int hitungDurasi(string mulai, string selesai) {
     int waktuMulai = ubahKeDetik(mulai);
     int waktuSelesai = ubahKeDetik(selesai);
@@ -30,7 +30,7 @@ int hitungDurasi(string mulai, string selesai) {
     return waktuSelesai - waktuMulai;
 }
 
-// Menampilkan durasi dalam menit dan detik
+
 void tampilDurasi(int detik) {
     int menit = detik / 60;
     int sisaDetik = detik % 60;
@@ -67,7 +67,7 @@ int main() {
         "Lancar"
     };
 
-    // hitung durasi setiap hari
+    
     int durasiSenin =
         hitungDurasi(senin.waktuBerangkat, senin.waktuFinish);
 
@@ -77,13 +77,13 @@ int main() {
     int durasiJumat =
         hitungDurasi(jumat.waktuBerangkat, jumat.waktuFinish);
 
-    // hitung total durasi
+    
     int totalDetik =
         durasiSenin +
         durasiRabu +
         durasiJumat;
 
-    // hitung rata-rata
+    
     int rataRata = totalDetik / 3;
 
     cout << "============================================================\n";

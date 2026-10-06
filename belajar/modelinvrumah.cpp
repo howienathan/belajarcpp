@@ -1,4 +1,3 @@
-```cpp
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -6,7 +5,7 @@
 using namespace std;
 
 int main() {
-    // Variabel data barang
+    
     string nama_barang;
     string merek;
     string tipe_model;
@@ -20,25 +19,25 @@ int main() {
 
     bool masih_digunakan;
 
-    // Variabel total
+    
     double total_harga_beli = 0;
     double total_nilai_sekarang = 0;
     int total_unit = 0;
 
-    // Header program
+    
     cout << "===========================================" << endl;
     cout << "       PROGRAM INVENTARIS BARANG RUMAH     " << endl;
     cout << "===========================================" << endl;
     cout << endl;
 
-    // Memasukkan jumlah barang
+    
     int n;
 
     cout << "Masukkan jumlah barang yang ingin dicatat: ";
     cin >> n;
     cout << endl;
 
-    // Input data barang
+    
     for (int i = 1; i <= n; i++) {
         cout << "--- Input Barang ke-" << i << " ---" << endl;
 
@@ -73,7 +72,7 @@ int main() {
         cout << "Masih Digunakan (1=Ya, 0=Tidak): ";
         cin >> masih_digunakan;
 
-        // Menghitung total
+        
         total_harga_beli += harga_beli;
         total_nilai_sekarang += nilai_sekarang;
         total_unit++;
@@ -81,7 +80,7 @@ int main() {
         cout << endl;
     }
 
-    // Menampilkan ringkasan
+    
     cout << fixed << setprecision(0);
 
     cout << "===========================================" << endl;

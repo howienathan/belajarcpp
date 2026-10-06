@@ -9,7 +9,7 @@ int main() {
     const int jumlah = 5;
     Sepatu sepatu[jumlah];
 
-    // masukin ukuran sepatu
+    
     for (int i = 0; i < jumlah; i++) {
         cout << "Masukkan ukuran sepatu ke-" << i + 1 << ": ";
         cin >> sepatu[i].ukuran;
@@ -20,7 +20,7 @@ int main() {
         }
     }
 
-    // Mengurutkan
+    
     for (int i = 0; i < jumlah - 1; i++) {
         for (int j = i + 1; j < jumlah; j++) {
             if (sepatu[i].ukuran < sepatu[j].ukuran) {
@@ -31,7 +31,7 @@ int main() {
         }
     }
 
-    // Menampilkan hasil
+    
     cout << "\nUrutan ukuran sepatu dari terbesar:\n";
 
     for (int i = 0; i < jumlah; i++) {
@@ -39,7 +39,7 @@ int main() {
              << sepatu[i].ukuran << endl;
     }
 
-    // Data pertama adalah ukuran paling besar
+    
     cout << "\nUkuran sepatu terbesar: "
          << sepatu[0].ukuran << endl;
 

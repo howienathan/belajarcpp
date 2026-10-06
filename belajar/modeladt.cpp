@@ -1,11 +1,10 @@
-```cpp
 #include <iostream>
 #include <string>
 #include <iomanip>
 
 using namespace std;
 
-// ADT / Struct Barang
+
 struct Barang {
     string nama;
     string merek;
@@ -23,19 +22,19 @@ struct Barang {
 };
 
 int main() {
-    // Deklarasi objek dari ADT Barang
+    
     Barang b1, b2;
 
     double total_harga_beli = 0;
     double total_nilai_sekarang = 0;
 
-    // Header Program
+    
     cout << "===========================================" << endl;
     cout << "       PROGRAM INVENTARIS RUMAH (ADT)      " << endl;
     cout << "===========================================" << endl;
     cout << endl;
 
-    // Input Data Barang 1
+    
     cout << "--- Input Data Barang 1 ---" << endl;
 
     cout << "Nama Barang     : ";
@@ -69,7 +68,7 @@ int main() {
 
     cout << endl;
 
-    // Input Data Barang 2
+    
     cin.ignore();
 
     cout << "--- Input Data Barang 2 ---" << endl;
@@ -105,14 +104,14 @@ int main() {
 
     cout << endl;
 
-    // Menghitung Total
+    
     total_harga_beli =
         b1.harga_beli + b2.harga_beli;
 
     total_nilai_sekarang =
         b1.nilai_sekarang + b2.nilai_sekarang;
 
-    // Output Ringkasan
+    
     cout << fixed << setprecision(0);
 
     cout << "===========================================" << endl;

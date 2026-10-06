@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// Data untuk menyimpan informasi sepatu
+
 struct Sepatu {
     string nama;
     string merk;
@@ -13,7 +13,7 @@ struct Sepatu {
     double harga;
 };
 
-// Menampilkan data satu sepatu
+
 void tampilkanSepatu(Sepatu s) {
     cout << "Nama  : " << s.nama << endl;
     cout << "Merk  : " << s.merk << endl;
@@ -26,7 +26,7 @@ int main() {
 
     const int JUMLAH = 5;
 
-    // Data sepatu
+    
     Sepatu daftarSepatu[JUMLAH] = {
         {"Nadia", "Nike", 38, "Pink White", 1200000},
         {"Ira", "Adidas", 37, "Black Purple", 1100000},
@@ -35,12 +35,12 @@ int main() {
         {"Laksmiya", "Asics", 38, "Black Orange", 1250000}
     };
 
-    // Menampilkan data sepatu milik Rania
+    
     cout << "       DATA SEPATU MILIK RANIA" << endl;
 
     tampilkanSepatu(daftarSepatu[2]);
 
-    // Menampilkan semua data sepatu
+    
     cout << "             DAFTAR SEPATU" << endl;
 
     for (int i = 0; i < JUMLAH; i++) {
@@ -49,14 +49,14 @@ int main() {
         cout << "-------------------------------------------" << endl;
     }
 
-    // Menghitung total harga semua sepatu
+    
     double totalHarga = 0;
 
     for (int i = 0; i < JUMLAH; i++) {
         totalHarga += daftarSepatu[i].harga;
     }
 
-    // Mencari harga sepatu paling mahal dan paling murah
+    
     int palingMahal = 0;
     int palingMurah = 0;
 
@@ -71,7 +71,7 @@ int main() {
         }
     }
 
-    // Menampilkan hasil
+    
     cout << "               HASIL AKHIR" << endl;
 
     cout << "Total harga semua sepatu : Rp "

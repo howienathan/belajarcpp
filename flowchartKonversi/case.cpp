@@ -3,7 +3,6 @@
 
 using namespace std;
 
-// Mengubah angka 1 sampai 9 menjadi tulisan
 string namaAngka(int angka) {
     switch (angka) {
         case 1: return "satu";
@@ -25,7 +24,6 @@ int main() {
     cout << "Masukkan angka (1 - 100): ";
     cin >> angka;
 
-    // Mengecek apakah angka masih dalam batas yang ditentukan
     if (angka < 1 || angka > 100) {
         cout << "Angka di luar jangkauan!" << endl;
         return 0;

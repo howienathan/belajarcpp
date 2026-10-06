@@ -17,18 +17,18 @@ deskripsi :
     output hasil
  */
 
-//judul : bermain jam
+
 
 #include <iostream>
 using namespace std;
-//kamus
+
 int Jx, Mx, Dx;
 int Jy, My, Dy;
 int durasi_Detikx, durasi_Detiky;
 int jz, mz, dz;
 int totaldurasi;
 
-//deskripsi
+
 int main()
 {
    cout << "ajar menghargai waktu" << endl;
@@ -58,7 +58,7 @@ int main()
    cout << "detik masuknya adalah " << Dy << endl;
    durasi_Detiky = (Jy * 3600) + (My * 60) + Dy;
    cout << "total detik adalah " << durasi_Detiky << endl;
-    //menghitung durasi
+    
     totaldurasi = durasi_Detiky - durasi_Detikx;
     cout << endl;
    cout << "durasi waktu adalah " << totaldurasi << " detik" << endl;

@@ -20,17 +20,17 @@ int main () {
         cout << "Data " << nama[i] << endl;
         cout << "Merk: "; cin >> sepatu[i].merk;
         cout << "nomor: "; cin >> sepatu[i].nomor;
-        cin.ignore(); // Membersihkan buffer input sebelum membaca string
+        cin.ignore(); 
         cout << "warna: "; getline(cin, sepatu[i].warna);
         cout << "ukuran: "; cin >> sepatu[i].ukuran;
         cout << "harga: "; cin >> sepatu[i].harga;
-        cin.ignore(); // Membersihkan buffer input sebelum iterasi berikutnya
+        cin.ignore(); 
         cout << endl;
     }
 
     cout << "Data sepatu yang dimasukkan:\n";
     cout << left << setw(10) << "Nama" << setw(15) << "Merk" << setw(10) << "Nomor" << setw(15) << "Warna" << setw(10) << "Ukuran" << setw(15) << "Harga" << endl;
-    cout << string(75, '-') << endl; // Garis pemisah
+    cout << string(75, '-') << endl; 
     for (int i = 0; i < 5; i++) {
         cout << left << setw(10) << nama[i] 
              << setw(15) << sepatu[i].merk 

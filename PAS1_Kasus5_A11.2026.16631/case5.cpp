@@ -7,13 +7,13 @@ typedef struct {
 } nilai;
 
 int main() {
-    nilai n1; // Membuat variabel n1 dari tipe struct nilai
+    nilai n1; 
 
-    // Mengisi nilai untuk anggota struct
+    
     n1.x = 5;
     n1.y = 10;
 
-    // Menampilkan nilai anggota struct
+    
     cout << "Nilai x = " << n1.x << endl;
     cout << "Nilai y = " << n1.y << endl;
 

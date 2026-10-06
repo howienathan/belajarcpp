@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-    // No array
+    
     int sepatuNadia = 38;
     int sepatuIra = 37;
     int sepatuRania = 39;
@@ -21,7 +21,7 @@ int main() {
     cout << "Sepatu Laksmiya : " << sepatuLaksmiya << endl;
 
 
-    // array
+    
     int nomorSepatu[5] = {38, 37, 39, 36, 38};
 
     string nama[5] = {
@@ -34,7 +34,7 @@ int main() {
 
     cout << "        DATA SEPATU DENGAN ARRAY" << endl;
 
-    // output array
+    
     for (int i = 0; i < 5; i++) {
         cout << "Index " << i << " - "
              << nama[i] << " : "
