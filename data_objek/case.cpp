@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cmath>
 
 using namespace std;
 
@@ -18,9 +19,12 @@ int pilihanBalok;
 double volumeBalok;
 double luasBalok;
 
-const double phi = 3.14;
+double phi;
+
 
 int main () {
+
+    phi = 3.14;
 
     cout << "Latihan case objek" << endl;
     cout << "Pilih objek yang ingin dihitung" << endl;
