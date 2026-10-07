@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// deskripsi
 int main() {
+    // kamus global
     int n;
 
     cout << "Input jumlah data: ";

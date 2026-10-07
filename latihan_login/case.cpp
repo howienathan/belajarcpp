@@ -3,8 +3,10 @@
 
 using namespace std;
 
+// kamus global
 string username, password;
 
+// deskripsi
 int main() {
     cout << "Latihan login" << endl;
     

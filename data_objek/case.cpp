@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// kamus global
 int pilihanObjek;
 
 double jariJari;
@@ -22,6 +23,7 @@ double luasBalok;
 double phi;
 
 
+// deskripsi
 int main () {
 
     phi = 3.14;

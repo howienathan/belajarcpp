@@ -3,7 +3,9 @@
 
 using namespace std;
 
+// deskripsi
 int main() {
+    // kamus global
     double jamKerja, jamLembur, upah;
 
     cout << "masukkan total jam kerja: ";

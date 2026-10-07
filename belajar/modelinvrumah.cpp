@@ -4,8 +4,10 @@
 
 using namespace std;
 
+// deskripsi
 int main() {
     
+    // kamus global
     string nama_barang;
     string merek;
     string tipe_model;

@@ -5,6 +5,7 @@
 using namespace std;
 
 struct Tas {
+    // kamus global
     string namaTas;
     string merek;
     string warna;
@@ -17,6 +18,7 @@ struct Tas {
     string kondisi;
 };
 
+// deskripsi
 int main() {
 
     Tas koleksi[5] = {

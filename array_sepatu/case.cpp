@@ -3,9 +3,11 @@
 
 using namespace std;
 
+// deskripsi
 int main() {
 
     
+    // kamus global
     int sepatuNadia = 38;
     int sepatuIra = 37;
     int sepatuRania = 39;

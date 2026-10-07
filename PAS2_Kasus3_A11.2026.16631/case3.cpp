@@ -2,7 +2,9 @@
 
 using namespace std;
 
+// deskripsi
 int main() {
+    // kamus global
     int a, b;
 
     cout << "Masukkan nilai a: ";

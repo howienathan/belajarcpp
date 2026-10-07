@@ -2,8 +2,10 @@
 
 using namespace std;
 
+// kamus global
 int a, b;
 
+// deskripsi
 int main() {
 
     cout << "latihan switch case" << endl;

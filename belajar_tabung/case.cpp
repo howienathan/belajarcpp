@@ -10,9 +10,11 @@ struct lingkaran {
 struct name {
     string nama ;
 };
+// kamus global
 struct lingkaran bunderan, holahop;
 
 
+// deskripsi
 int main() {
 
     cout << "latihan tipe bentukan" << endl;

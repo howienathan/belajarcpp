@@ -6,6 +6,7 @@ using namespace std;
 
 
 struct Sepatu {
+    // kamus global
     string nama;
     string merk;
     int nomor;
@@ -22,6 +23,7 @@ void tampilkanSepatu(Sepatu s) {
     cout << "Harga : Rp " << fixed << setprecision(0) << s.harga << endl;
 }
 
+// deskripsi
 int main() {
 
     const int JUMLAH = 5;

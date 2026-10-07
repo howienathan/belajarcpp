@@ -5,6 +5,7 @@
 using namespace std;
 
 struct Sepatu {
+    // kamus global
     string merk;
     string tipe;
     string warna;
@@ -12,6 +13,7 @@ struct Sepatu {
     double harga;
 };
 
+// deskripsi
 int main () {
     Sepatu sepatu[5] = {
         {"Nike", "Air Max", "Hitam", 42, 1500000},

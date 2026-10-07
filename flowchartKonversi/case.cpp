@@ -18,7 +18,9 @@ string namaAngka(int angka) {
     }
 }
 
+// deskripsi
 int main() {
+    // kamus global
     int angka;
 
     cout << "Masukkan angka (1 - 100): ";

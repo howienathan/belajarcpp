@@ -4,6 +4,7 @@
 using namespace std;
 
 
+// kamus global
 string namaSepatu;
 string merek;
 string warna;
@@ -13,6 +14,7 @@ int ukuran;
 double harga;
 
 
+// deskripsi
 int main()
 {
 

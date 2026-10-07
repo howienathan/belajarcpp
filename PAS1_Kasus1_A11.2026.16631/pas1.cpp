@@ -15,6 +15,7 @@ using namespace std;
 
 
 void soal1() {
+    // kamus global
     double a;
     cout << "=== Nomor 1: y = a * a * a + 7 ===" << endl;
     cout << "Masukkan nilai a: ";
@@ -83,6 +84,7 @@ void soal4() {
     cout << "c. Celcius ke Reamur     : " << reamur << " R" << endl;
 }
 
+// deskripsi
 int main() {
     
     soal1();

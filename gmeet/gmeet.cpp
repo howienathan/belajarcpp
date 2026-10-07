@@ -22,6 +22,7 @@ deskripsi :
 #include <iostream>
 using namespace std;
 
+// kamus global
 int Jx, Mx, Dx;
 int Jy, My, Dy;
 int durasi_Detikx, durasi_Detiky;
@@ -29,6 +30,7 @@ int jz, mz, dz;
 int totaldurasi;
 
 
+// deskripsi
 int main()
 {
    cout << "ajar menghargai waktu" << endl;

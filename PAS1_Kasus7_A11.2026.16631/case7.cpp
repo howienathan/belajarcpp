@@ -1,8 +1,10 @@
 #include <iostream>
 using namespace std;
 
+// deskripsi
 int main() {
     
+    // kamus global
     int i = 15, *p, *q;
 
     p = &i;

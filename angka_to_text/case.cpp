@@ -2,8 +2,10 @@
 
 using namespace std;
 
+// kamus global
 int a;
 
+// deskripsi
 int main() {
     cout << "Latihan angka ke text" << endl;
     

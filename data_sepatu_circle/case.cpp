@@ -5,11 +5,13 @@
 using namespace std;
 
 struct Sepatu {
+    // kamus global
     string merk, warna;
     int nomor, ukuran;
     double harga;
 };
 
+// deskripsi
 int main () {
     Sepatu sepatu[5];
 

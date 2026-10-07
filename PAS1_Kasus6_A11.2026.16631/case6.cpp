@@ -18,6 +18,7 @@ bool is_genap(int n) {
 
 
 int sum_n(int n) {
+    // kamus global
     int total = 0;
 
     cout << "Deret bilangan 1 hingga " << n << ": ";
@@ -39,6 +40,7 @@ double avg_n(int n) {
     return static_cast<double>(total) / n;
 }
 
+// deskripsi
 int main() {
     int n;
 

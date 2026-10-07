@@ -18,12 +18,14 @@
     
 #include <iostream>
     using namespace std;
+    // kamus global
     int jamD, menitD, detikD;
     int jamS, menitS, detikS;
     int totalD, totalS;
     int totaldurasi;
     int JAM, MENIT, DETIK;
 
+// deskripsi
 int main() {
 
     jamD = 7;
@@ -44,3 +46,4 @@ int main() {
     
     return 0;
 }
+

@@ -5,6 +5,7 @@
     using namespace std;
 
     struct Barang {
+        // kamus global
         string nama;
         string merek;
         string tipe_model;
@@ -16,6 +17,7 @@
         bool masih_digunakan;
     };
 
+    // deskripsi
     int main() {
 
         const int JUMLAH = 4;
