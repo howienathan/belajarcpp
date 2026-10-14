@@ -35,39 +35,34 @@ int main () {
     cout << "masukin pilihan : ";
     cin >> pilihanObjek;
 
-    switch (pilihanObjek) {
-        case 1:
-            cout << "lau memilih tabung" << endl;
-            cout << "masukin jari-jari : ";
-            cin >> jariJari;
-            cout << "masukin tinggi : ";
-            cin >> tinggiTabung;
+    if (pilihanObjek == 1) {
+        cout << "lau memilih tabung" << endl;
+        cout << "masukin jari-jari : ";
+        cin >> jariJari;
+        cout << "masukin tinggi : ";
+        cin >> tinggiTabung;
 
-            volumeTabung = phi * jariJari * jariJari * tinggiTabung;
-            luasTabung = 2 * phi * jariJari * (jariJari + tinggiTabung);
+        volumeTabung = phi * jariJari * jariJari * tinggiTabung;
+        luasTabung = 2 * phi * jariJari * (jariJari + tinggiTabung);
 
-            cout << "Volume tabung  : " << volumeTabung << endl;
-            cout << "Luas tabung  : " << luasTabung << endl;
-            break;
+        cout << "Volume tabung  : " << volumeTabung << endl;
+        cout << "Luas tabung  : " << luasTabung << endl;
+    } else if (pilihanObjek == 2) {
+        cout << "lau memilih balok" << endl;
+        cout << "masukin panjang : ";
+        cin >> panjang;
+        cout << "masukin lebar : ";
+        cin >> lebar;
+        cout << "masukin tinggi : ";
+        cin >> tinggiBalok;
 
-        case 2:
-            cout << "lau memilih balok" << endl;
-            cout << "masukin panjang : ";
-            cin >> panjang;
-            cout << "masukin lebar : ";
-            cin >> lebar;
-            cout << "masukin tinggi : ";
-            cin >> tinggiBalok;
+        volumeBalok = panjang * lebar * tinggiBalok;
+        luasBalok = 2 * (panjang * lebar + panjang * tinggiBalok + lebar * tinggiBalok);
 
-            volumeBalok = panjang * lebar * tinggiBalok;
-            luasBalok = 2 * (panjang * lebar + panjang * tinggiBalok + lebar * tinggiBalok);
-
-            cout << "Volume balok  : " << volumeBalok << endl;
-            cout << "Luas balok  : " << luasBalok << endl;
-            break;
-
-        default:
-            cout << "pilihan gaada" << endl;
+        cout << "Volume balok  : " << volumeBalok << endl;
+        cout << "Luas balok  : " << luasBalok << endl;
+    } else {
+        cout << "pilihan gaada" << endl;
     }
 
     return 0;

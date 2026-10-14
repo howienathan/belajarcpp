@@ -3,6 +3,9 @@
 
 using namespace std;
 
+// kamus global
+int angka, satuan, puluhan;
+
 string namaAngka(int angka) {
     switch (angka) {
         case 1: return "satu";
@@ -20,8 +23,7 @@ string namaAngka(int angka) {
 
 // deskripsi
 int main() {
-    // kamus global
-    int angka;
+    angka;
 
     cout << "Masukkan angka (1 - 100): ";
     cin >> angka;
@@ -44,13 +46,13 @@ int main() {
         cout << "sebelas" << endl;
     }
     else if (angka < 20) {
-        int satuan = angka % 10;
+        satuan = angka % 10;
 
         cout << namaAngka(satuan) << " belas" << endl;
     }
     else {
-        int puluhan = angka / 10;
-        int satuan = angka % 10;
+        puluhan = angka / 10;
+        satuan = angka % 10;
 
         if (satuan == 0) {
             cout << namaAngka(puluhan) << " puluh" << endl;
