@@ -5,7 +5,6 @@
 using namespace std;
 
 struct Tas {
-    // kamus global
     string namaTas;
     string merek;
     string warna;
@@ -21,6 +20,7 @@ struct Tas {
 // deskripsi
 int main() {
 
+    // kamus global
     Tas koleksi[5] = {
         {"Tas Kuliah", "Eiger", "Cream", "Polyester", 20, 350000, 2024, 6, "Ada Laptop Sleeve", "Baik"},
         {"Tas Camping", "Deuter", "Hijau Army", "Nylon", 50, 1250000, 2023, 8, "Waterproof", "Sangat Baik"},

@@ -5,7 +5,6 @@
 using namespace std;
 
 struct Perangkat {
-    // kamus global
     string namaBarang;
     string merek;
     string seri;
@@ -23,6 +22,7 @@ struct Perangkat {
 // deskripsi
 int main() {
 
+    // kamus global
     Perangkat barang;
     int n;
 

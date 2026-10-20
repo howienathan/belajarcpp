@@ -2,13 +2,13 @@
 using namespace std;
 
 typedef struct {
-    // kamus global
     int x;
     int y;
 } nilai;
 
 // deskripsi
 int main() {
+    // kamus global
     nilai n1; 
 
     

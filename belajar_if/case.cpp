@@ -2,12 +2,12 @@
 using namespace std;
 
 struct Sepatu {
-    // kamus global
     int ukuran;
 };
 
 // deskripsi
 int main() {
+    // kamus global
     const int jumlah = 5;
     Sepatu sepatu[jumlah];
 

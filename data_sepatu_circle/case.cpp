@@ -5,7 +5,6 @@
 using namespace std;
 
 struct Sepatu {
-    // kamus global
     string merk, warna;
     int nomor, ukuran;
     double harga;
@@ -13,6 +12,7 @@ struct Sepatu {
 
 // deskripsi
 int main () {
+    // kamus global
     Sepatu sepatu[5];
 
     string nama[5] = {"jon", "mahes", "kikik", "wahit", "ghaza"};

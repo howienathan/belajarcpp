@@ -5,7 +5,6 @@ using namespace std;
 
 
 struct DataLari {
-    // kamus global
     string hari;
     string tanggal;
     string waktuMulai;
@@ -34,6 +33,7 @@ void tampilDurasi(int detik) {
 // deskripsi
 int main() {
 
+    // kamus global
     DataLari senin = {
         "Senin",
         "1 Sep 2025",
@@ -167,4 +167,3 @@ int main() {
 
     return 0;
 }
-

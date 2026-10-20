@@ -6,7 +6,6 @@ using namespace std;
 
 
 struct Barang {
-    // kamus global
     string nama;
     string merek;
     string tipe_model;
@@ -25,6 +24,7 @@ struct Barang {
 // deskripsi
 int main() {
     
+    // kamus global
     Barang b1, b2;
 
     double total_harga_beli = 0;
@@ -142,4 +142,3 @@ int main() {
 
     return 0;
 }
-

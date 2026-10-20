@@ -6,7 +6,6 @@ using namespace std;
 
 
 struct Sepatu {
-    // kamus global
     string nama;
     string merk;
     int nomor;
@@ -26,6 +25,7 @@ void tampilkanSepatu(Sepatu s) {
 // deskripsi
 int main() {
 
+    // kamus global
     const int JUMLAH = 5;
 
     

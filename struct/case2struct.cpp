@@ -5,7 +5,6 @@ using namespace std;
 
 
 struct KegiatanLari {
-    // kamus global
     string nama;
     string hari;
     string waktuBerangkat;
@@ -42,6 +41,7 @@ void tampilDurasi(int detik) {
 // deskripsi
 int main() {
 
+    // kamus global
     KegiatanLari senin = {
         "Nadia",
         "Senin",
