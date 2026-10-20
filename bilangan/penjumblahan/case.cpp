@@ -27,3 +27,6 @@ int main() {
 
     return 0;
 }
+
+// disini ngejumlahin semua bilangan bulat dulu dari 1 sampe N. terus pake pengulangan di while nambahin angka ke jumlah 
+// contoh = jika N = 4, hasilnya 1 + 2 + 3 + 4 = 10

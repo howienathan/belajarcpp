@@ -17,3 +17,5 @@ int main() {
 
     return 0;
 }
+
+//  mnggunakan pengulangan jadi misal aku masukin angka nya 7 tar bakal 1 x 10 sampe 7 x 10 kebawah
