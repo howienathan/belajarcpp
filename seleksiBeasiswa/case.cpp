@@ -14,7 +14,7 @@ char nilai;
 
 int main() {
     cout << "Input Data Mahasiswa" << endl;
-    cout << "Masukkan IPK" << endl;
+    cout << "Masukkan IPK : ";
     cin >> IPK;
     cout << "Masukkan Penghasilan Orang Tua (tanpa titik, contoh: 3000000): ";
     cin >> penghasilanOrtu;

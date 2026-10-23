@@ -8,12 +8,12 @@ int main() {
 
     jumlah = 0;
 
-    cout << "Masukkan bilangan: ";
+    cout << "Masukkan bilangan positif: ";
     cin >> N;
 
     while (N > 0) {
         N = N / 10;
-        jumlah++;
+        jumlah = jumlah + 1;
     }
 
     cout << "Jumlah digit = " << jumlah;

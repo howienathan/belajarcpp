@@ -5,17 +5,33 @@ using namespace std;
 
 // kamus
 
-int roti;
-float donat;
+int x;
+float y;
+
+// int roti;
+// float donat;
+
+// int main() {
+//     cout << "kelipatan 3\n";
+//     roti = 3;
+//     donat = 3;
+//     while ( roti < 100 ) {
+//         cout << roti << " - ";
+//         donat = donat - roti;
+//         roti = roti * 6;
+//     }
+//     cout << " : " << donat << endl;        
+// }
 
 int main() {
-    cout << "kelipatan 3\n";
-    roti = 3;
-    donat = 3;
-    while ( roti < 5000 ) {
-        cout << roti << " + ";
-        donat = donat + roti;
-        roti = roti * 3;
+    x = 6;
+
+    while (x <= 100)
+    {
+        cout << x << "  ";
+        x = x + 6;
+
     }
-    cout << " : " << donat << endl;        
+    
+
 }
