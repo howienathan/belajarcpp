@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// kamus global
 struct Sepatu {
     string merk;
     string tipe;
@@ -14,7 +15,6 @@ struct Sepatu {
 
 // deskripsi
 int main () {
-    // kamus global
     Sepatu sepatu[5] = {
         {"Nike", "Air Max", "Hitam", 42, 1500000},
         {"Adidas", "Ultraboost", "Putih", 43, 2000000},

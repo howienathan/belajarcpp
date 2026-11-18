@@ -1,18 +1,21 @@
 #include <iostream>
 using namespace std;
 
+// kamus
 struct Sepatu {
     int ukuran;
 };
+int i, j;
+int jumlah;
 
 // deskripsi
 int main() {
-    // kamus global
-    const int jumlah = 5;
+    cout << "Masukkan jumlah sepatu: ";
+    cin >> jumlah;
     Sepatu sepatu[jumlah];
 
     
-    for (int i = 0; i < jumlah; i++) {
+    for ( i = 0; i < jumlah; i++) {
         cout << "Masukkan ukuran sepatu ke-" << i + 1 << ": ";
         cin >> sepatu[i].ukuran;
 
@@ -23,8 +26,8 @@ int main() {
     }
 
     
-    for (int i = 0; i < jumlah - 1; i++) {
-        for (int j = i + 1; j < jumlah; j++) {
+    for ( i = 0; i < jumlah - 1; i++) {
+        for ( j = i + 1; j < jumlah; j++) {
             if (sepatu[i].ukuran < sepatu[j].ukuran) {
                 Sepatu temp = sepatu[i];
                 sepatu[i] = sepatu[j];
