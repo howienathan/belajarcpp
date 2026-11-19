@@ -39,14 +39,13 @@ int main() {
     
     cout << "\nUrutan ukuran sepatu dari terbesar:\n";
 
-    for (int i = 0; i < jumlah; i++) {
+    for ( i = 0; i < jumlah; i++) {
         cout << "Sepatu ke-" << i + 1 << ": "
              << sepatu[i].ukuran << endl;
     }
 
-    
-    cout << "\nUkuran sepatu terbesar: "
-         << sepatu[0].ukuran << endl;
+    cout << "\nUkuran sepatu terkecil: " << sepatu[jumlah - 1].ukuran << endl;
+    cout << "\nUkuran sepatu terbesar: " << sepatu[0].ukuran << endl;
 
     return 0;
 }
