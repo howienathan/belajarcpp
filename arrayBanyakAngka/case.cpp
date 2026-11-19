@@ -1,4 +1,7 @@
+// judul : Program Mengurutkan Ukuran Sepatu dari Terbesar ke Terkecilq
+
 #include <iostream>
+
 using namespace std;
 
 // kamus
